@@ -1,0 +1,13 @@
+#content {
+    background-color: #008db1;
+    border: 4px solid #004e63;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto auto;
+}
+
+ul {
+    color: #89029e;
+    font-family: helvetica;
+    margin: 0 auto;
+}

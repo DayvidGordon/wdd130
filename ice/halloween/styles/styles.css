@@ -1,0 +1,72 @@
+/* Add your CSS here to style your halloween page */
+#wrapper {
+    background-color: chocolate;
+}
+nav ul {
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    border-radius: 50px;
+}
+
+nav ul li {
+    flex: 1;
+    text-align: center;
+    display: block;
+    padding: 20px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+ul {
+    font-size: 3em;
+}
+ul :hover {
+    background-color: darksalmon;
+}
+
+@font-face {
+    font-family: "custom_font";
+    src: url("../fonts/BloodyModes-gwwYp.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "custom_font_2";
+    src: url("../fonts/KilegorePersonalUse-yYmZ2.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "custom_font", sans-serif;
+    font-size: 8em;
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    margin: auto auto;
+    display: block;
+    text-align: center;
+    border-width: 15px;
+    margin-bottom: 15px;
+}
+
+p, h2 {
+    background-color: black;
+    color: antiquewhite;
+    margin: 0;
+    padding: 10px;    
+}
+
+p {
+    font-size: 1.2em;
+}
+
+h2 {
+    font-family: custom_font_2, sans-serif;
+}
